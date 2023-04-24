@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 46px;
+    align-items: center;
+}
+.brand{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin-left: 54px;
+    width: 136px;
+    height: 32px;
+}
+nav ul, li{
+    list-style: none;
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1px;
+    padding: 12px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+}
+.img-search{
+    margin-left: 52px;
+}
+nav #icon{
+    width: 30px;
+    height: 30px;
+}
+.presentation{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
+align-content: space-around;
+}
+.colunm{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#text-presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 40px;
+    width: 340px;
+ 
+}
+#text-presentation h3{
+    color:red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    width: 140px;
+}
+#text-presentation p{
+color:blue;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding-left: 40px;
+width:240px;
+height: 36px;
+}
+#photo1{
+    display: flex;
+}
+#photo1 img{
+    width: 440px;
+    height: 600px;
+}
+
+aside{
+display: flex;
+align-items: center;
+justify-content: space-between;    
+}
