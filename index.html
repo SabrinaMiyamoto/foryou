@@ -8,7 +8,7 @@
     <script src="index.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&family=Roboto:wght@100;500;700;900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -34,6 +34,7 @@
         <div id="photo1"><img src="src/first-img.jpg" alt="casal vestindo uma jaqueta jeans"></div>
     </div>
         <div class="paymentform">
+            <img src="src/Vector.png" alt="">
             <aside>
                 <div class="free">
                     <h6>FRETE GRATÍS</h6>
@@ -54,31 +55,38 @@
     <section class="emphasis">
         <h2>destaque</h2>
         <div class="img-emphasis">
+            <div class="first-img">
         <img src="src/man1-img.jpg" alt="">
+        <h6>Camisa masculina</h6>
+        <p>R$  199,00</p>
+            </div>
+            <div class="second-img">
         <img src="src/woman2-img.jpg" alt="">
+        <h6>Blusa feminina</h6>
+        <p>R$  159,00</p>
+            </div>
+            <div class="third-img">
         <img src="src/woman3-img.jpg" alt="">
-        </div>
-        <div class="clothing">
-        <ul>
-            <li><h6>Camisa masculina</h6></li>
-            <li><h6>Blusa feminina</h6></li>
-            <li><h6>Conjunto calça e brazer</h6></li>
-        </ul>
-        </div>
-        <div class="price">
-            <p>R$  199,00</p>
-            <p>R$  159,00</p>
-            <p>R$  299,00</p>
+        <h6>Conjunto calça e brazer</h6>
+        <p>R$  299,00</p>
+             </div>
         </div>
     </section>
     <section class="new-collection">
         <h3>COLEÇÃO NOVA </h3>
         <p>Novas peças para você  ser impecável todos os dias </p>
-        <div class="carousel">
-            <img src="src/carrousel1.jpg" alt="">
-            <img src="src/carrousel2.jpg" alt="">
-            <img src="src/carrousel3.jpg" alt="">
-            <p>Vestido despojado branco</p>
+       <div class="container">
+        <button class="arrow-left" aria-label="Previus image">&#10094;</button>
+        <button class="arrow-right"aria-label="Previus image">&#10095;</button>
+            <div class="gallery-wrapper">
+                <div class="gallery">
+                    <img src="src/carrousel1.jpg" alt="" class="item">
+                    <img src="src/carrousel2.jpg" alt="" class="item">
+                    <img src="src/carrousel2.jpg" alt="" class="item">
+                </div>
+            </div>
+       </div>
+                      <p>Vestido despojado branco</p>
             <p>R$  159,00</p>
         </div>
         <p>VEJA MAIS</p>
@@ -86,7 +94,14 @@
     <section class="assessments">
         <h5>Nossas avaliações</h5>
         <h4>Veja as avaliações dos nossos clientes satisfeitos.</h4>
-        <div id="assessments-clients"></div>
+        <div id="assessments-clients">
+            <div class="comments">
+               <cite>Estou encantada com essa loja, roupas lindas da atualidade e chegou super rápido, perfeitamente confeccionada, além de otimo atendimento.</cite> 
+                <img src="src/client1.png" alt="">
+                <cite>Fiz uma compra recentemente e fiquei impressionado com a qualidade e o acabamento da minha roupa, além do atendimento ao cliente foi ótimo. </cite>
+                <img src="src/client2.png" alt="">
+            </div>
+        </div>
     </section>
 </main>
 <footer>
