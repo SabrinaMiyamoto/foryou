@@ -293,7 +293,7 @@ aside p{
     color: #ED8E20;
     font-size: 20px;
     font-family: 'Poppins', 'sans-serif';
-    font-weight: 700;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -309,8 +309,6 @@ aside p{
     justify-content: center;   
 }
 .new-collection img{
-    width: 284px;
-    height: 432px;
     position: relative;
 }
 .container{
@@ -329,17 +327,19 @@ aside p{
     flex-wrap: nowrap;
     gap: 15px;
 }
+#arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .arrow-left, .arrow-right{
     position: absolute;
-    top: 0;
-    left: 0;
+    border-radius: 100%;
     right: auto;
     bottom: 0;
     color: white;
-    font-size: 20px;
     line-height: 250px;
-    width: 40px;
-    text-align: center;
+    width: 10px;    
     cursor: pointer;
     border: none;
     z-index: 2;
@@ -353,8 +353,20 @@ aside p{
     background-image: linear-gradient(to right, transparent 0%, #375230 200%);
 }
 .item{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 302px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+}
+.item2{
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+}
+.item3{
+    width: 150px;
+    height: 150px;
     flex-shrink: 0;
     transition: all 600ms ease-in-out;
 }
