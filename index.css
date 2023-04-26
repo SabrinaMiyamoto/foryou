@@ -7,12 +7,12 @@ nav{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-right: 46px;
+    margin-right: 2.875rem;
     align-items: center;
     background-color: #F5F9F0;
     font-family: 'Poppins', 'sans-serif';
-    font-size: 14px;
-    font-weight: bolder;
+    font-size: 0.875rem;
+    font-weight: 600;
     color: #4B3F30;
     width: 100%;
     
@@ -21,9 +21,14 @@ nav{
     display: inline;
     justify-content: center;
     align-items: center;
-    margin-left: 54px;
-    width: 136px;
-    height: 32px;
+    margin-left: 3.375rem;
+    width: 8.5rem;
+    height: 2rem;
+}
+.circle-brand{
+    width: 0.25rem;
+    height: 0.25rem;
+    margin-top: 1.625rem;
 }
 nav ul, li{
     list-style: none;
@@ -31,18 +36,18 @@ nav ul, li{
     flex-direction: initial;
     align-items: center;
     justify-content: space-around;
-    margin: 1px;
-    padding: 12px;
+    margin: 0.063rem;
+    padding: 0.75rem;
     text-transform: uppercase;
     white-space: nowrap;
     flex-wrap: nowrap;
 }
 .img-search{
-    margin-left: 52px;
+    margin-left: 3.25rem;
 }
 nav #icon{
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
 }
 .presentation{
 display: flex;
@@ -67,54 +72,60 @@ background-color: #F5F9F0;
     justify-content: center;
     flex-wrap: wrap;
     align-content: flex-start;
-    padding: 40px;
-    width: 360px;
+    padding: 2.5rem;
+    width: 22.5rem;
 }
 #text-presentation h3{
     color: #4b3f30;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 12px;
-    width: 160px;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 0.5rem;
+    width: 11.25rem;
     font-weight: bolder;   
     font-family: 'Poppins', 'sans-serif';
-    font-size: 22px;
+    font-size: 1.375rem;
     position: relative;
     text-align: initial;
+}
+#text-presentation h3 span{
+    position: absolute;
+    top: 46%;
+    left: 75%;
+    transform: translate(50%, 50%);
 }
 #text-presentation p{
 color: #2b2217;
 display: flex;
 flex-direction: column;
-align-items: center;
+align-items: flex-start;
+align-content: flex-start;
 justify-content: center;
-padding-left: 40px;
-width:240px;
-height: 40px;
+flex-wrap: wrap;
+flex-direction: row;
+padding-left: 1.875rem;
+width: 15rem;
+height: 2.5rem;
 font-family: 'Roboto', 'sans-serif';
-font-weight: bold;
-font-size: 14px;
+font-weight: 400;
+font-size: 0.813rem;
 text-align: left;
-}
-.color{
-    color: #FFBB00;
 }
 #photo1{
     display: flex;
-    height: 540px;
-    width: 372px;
+    height: 33.75rem;
+    width: 23.25rem;
 }
 #photo1 img{
-    width: 440px;
-    height: 600px;
+    width: 27.5rem;
+    height: 37.5rem;
     z-index: 2;
 }
 .paymentform{
     display: flex;
     background-color: #e2f5dd; 
-    height: 200px;
+    height: 12.5rem;
     width:100%;
 }
 .paymentform img{
@@ -122,12 +133,13 @@ text-align: left;
     justify-content: left;
     align-content: start;
     align-items: start;
-    width: 55px;
-    height: 55px;
+    width: 3.483rem;
+    height: 3.483rem;
     position: relative;
-    top: 12px;
-    left: 50px;
+    top: 0.75rem;
+    left: 3.125rem;
 }
+
 aside{
     display: flex;
     align-items: center;
@@ -136,16 +148,17 @@ aside{
     float: left;  
     flex-direction: row;
     align-content: center;
-    margin-left: 60px;
-    margin-right: 50px;
+    margin-left: 3.75rem;
+    margin-right: 3.125rem;
 }
+
 aside h6{
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Roboto', 'sans-serif';
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1rem;
     color: #4b3f30;
 }
 aside p{
@@ -154,10 +167,10 @@ aside p{
     justify-content: center;
     font-family: 'Roboto', 'sans-serif';
     font-weight: 500;
-    font-size: 12px;
+    font-size: 0.75rem;
     text-align: initial;
     position: relative;
-    left: 6px;
+    left: 0.375rem;
     color: #2b2217;
 }
 .free{
@@ -167,7 +180,7 @@ aside p{
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    width: 118px;
+    width: 7.375rem;
 }
 .security{
     display: flex;
@@ -183,7 +196,7 @@ aside p{
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 124px;
+    width: 7.75rem;
     align-content: center;
 }
 .emphasis{
@@ -195,15 +208,15 @@ aside p{
   align-items: center;
   justify-content: center;
   font-family: 'Poppins', 'sans-serif';
-  font-size: 28px;
-  font-weight: bolder;
+  font-size: 1.75rem;
+  font-weight: bold;
   color: #60735C;
   text-transform: uppercase;
-  margin: 12px;
+  margin: 0.75rem;
 }
-.emphasis img{
-    width: 360px;
-    height: 420px;
+.emphasis-img{
+    width: 22.5rem;
+    height: 26.25rem;
 }
 .img-emphasis{
     display: flex;
@@ -211,7 +224,7 @@ aside p{
     align-items: flex-start;
     align-content: flex-end;
     justify-content: space-around;
-    margin-left: 32px;
+    margin-left: 2rem;
     width: 90%;
     position: relative;
 }
@@ -222,12 +235,12 @@ aside p{
     justify-content: space-between;
     flex-direction: column;
     font-family: 'Poppins', 'sans-serif';
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 300;
     width: 90%;
     position: static;
-    margin-left: 22px;
-    margin-bottom: 52px;
+    margin-left: 1.375rem;
+    margin-bottom: 3.25rem;
 }
 .first-img p{
     display: flex;
@@ -235,13 +248,26 @@ aside p{
     justify-content: center;
     flex-direction: row;
     font-family: 'Roboto', 'sans-serif';
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     position: relative;
 }
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.circle-emphasis{
+    width: 0.5rem;
+    height: 0.5rem;
+    position: relative;
+    left: 0.75rem
+}
 .circle{
-    width: 4px;
-    height: 4px;
+    width: 0.25rem;
+    height: 0.25rem;
 }
 .second-img{
     display: flex;
@@ -250,11 +276,11 @@ aside p{
     justify-content: space-between;
     flex-direction: column;
     font-family: 'Poppins', 'sans-serif';
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 400;
     width: 90%;
     position: static;
-    margin-left: 22px;
+    margin-left: 1.375rem;
 }
 .second-img p{
     display: flex;
@@ -262,7 +288,7 @@ aside p{
     justify-content: center;
     flex-direction: row;
     font-family: 'Roboto', 'sans-serif';
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     position: relative;  
 }
@@ -273,11 +299,11 @@ aside p{
     justify-content: space-between;
     flex-direction: column;
     font-family: 'Poppins', 'sans-serif';
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 300;
     width: 90%;
     position: static;
-    margin-left: 22px;
+    margin-left: 1.375rem;
 }
 .third-img p{
     display: flex;
@@ -285,7 +311,7 @@ aside p{
     justify-content: center;
     flex-direction: row;
     font-family: 'Roboto', 'sans-serif';
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     position: relative;  
 }
@@ -294,17 +320,17 @@ aside p{
 }
 .new-collection h3{
     color: #ED8E20;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Poppins', 'sans-serif';
     font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 32px;
+    padding-top: 2rem;
 }
 .new-collection p{
     color: #8A7862;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: 'Poppins', 'sans-serif';
     font-weight: 500;
     display: flex;
@@ -312,14 +338,14 @@ aside p{
     justify-content: center;   
 }
 .new-collection img{
-    width: 284px;
-    height: 432px;
+    width: 17.75rem;
+    height: 27rem;
     position: relative;
 }
 .container{
     position: relative;
-    padding: 15px;
-    max-width: 640px;
+    padding: 0.983rem;
+    max-width: 40rem;
     margin: 0 auto;
 }
 .gallery-wrapper{
@@ -330,7 +356,7 @@ aside p{
     display: flex;
     flex-flow: row;
     flex-wrap: nowrap;
-    gap: 15px;
+    gap: 0.938rem;
 }
 .arrow-left, .arrow-right{
     position: absolute;
@@ -339,9 +365,9 @@ aside p{
     right: auto;
     bottom: 0;
     color: white;
-    font-size: 20px;
-    line-height: 250px;
-    width: 40px;
+    font-size: 1.25rem;
+    line-height: 15.625rem;
+    width: 2.5rem;
     text-align: center;
     cursor: pointer;
     border: none;
@@ -356,42 +382,48 @@ aside p{
     background-image: linear-gradient(to right, transparent 0%, #375230 200%);
 }
 .item{
-    width: 250px;
-    height: 250px;
+    width: 15.625rem;
+    height: 15.625rem;
     flex-shrink: 0;
     transition: all 600ms ease-in-out;
 }
 .assessments{
     background-color: #3C4739;
-    height: 500px;
+    height: 31.25rem;
+    padding: 4.875rem;
 }
 .assessments h4{
     font-family: 'Roboto', 'sans-serif';
-    font-size: 24px;
-    font-weight: 300;
-    width: 247px;
-    height: 32px;
-    margin-left: 200px;
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 15.438rem;
+    height: 2rem;
+    margin-left: 12.5rem;
     color: #788D73;
-    padding-top: 28px;
+    padding-top: 1.75rem;
+}
+.color{
+    color: #FFBB00;
 }
 .assessments h3{
     font-family: 'Roboto', 'sans-serif';
-    font-size: 22px;
+    font-size: 1.125rem;
     font-weight: bold;
     color: #A7D99B;
-    width: 200px;
-    height: 144px;
-    margin-left: 200px;
-    padding-top: 28px;
+    width: 12.5rem;
+    height: 9rem;
+    margin-left: 12.5rem;
+    padding-top: 1.75rem;
+    text-transform: uppercase;
 }
 .assessments-clients{
 display: flex;
 }
 #vector{
     float: right;
-    padding: 12px;
-    padding-right: 56px;
+    padding: 0.75rem;
+    padding-right:0.375rem;
 }
 .vector{
     display: flex;
@@ -399,9 +431,10 @@ display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
     position: relative;
-    width: 70px;
-    height: 70px;
-    bottom: 140px;
+    width: 4.375rem;
+    height: 4.375rem;
+    bottom: 8.75rem;
+    right: 15.875rem;
 }
 .comments{
     display: flex;
@@ -417,30 +450,44 @@ display: flex;
     flex-direction: column;
 }
 .aspas-left{
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
     position: relative;
-    margin-right: 412px;
+    margin-right: 25.75rem;
+    top: 2.125rem;
+    left: 1.5rem;
 }
 .aspas-right{
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
     position: relative;
-    margin-left: 276px;
+    margin-left: 0.375rem;
+    bottom: 1.7rem;
+    left: 19.625rem;
 
 }
+.aspas-right2{
+    width: 1.875rem;
+    height: 1.875rem;
+    position: relative;
+    margin-left: 0.375rem;
+    bottom: 1.125rem;
+    left: 6.625rem;
+}
+
 cite{
     display: flex;
     align-items: center;
-    width: 360px;
-    height: 80px;
+    width: 22.5rem;
+    height: 5rem;
     font-family: 'Roboto', 'sans-serif';
     font-weight: 300;
-    font-size: 14px;
+    font-size: 0.875rem;
+    padding-left: 3.375rem;
 }
 .client{
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -451,11 +498,129 @@ cite{
 }
 .client-name p{
     color: #ffffff;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: 'Poppins', 'sans-serif';
     font-weight: 300;
-    padding: 12px;
+    padding: 0.75rem;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.who-we-are{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+    height: 18.75rem;
+}
+.eccomerce-img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    position: relative;
+    right: 2.813rem;
+}
+.logo{
+    width: 12.5rem;
+    height: 3,125rem;
+}
+.footer-circle{
+    width: 0.375rem;
+    height: 0.375rem;    
+    margin-top: 2.25rem;
+    margin-left: 0.25rem;
+}
+.footer-img{
+    width: 15.625rem;
+    height: 19.87rem;
+    z-index: 2;
+    top: 0.56rem;
+    position: relative;
+}
+.eccomerce-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 0.75rem;
+    font-family: 'Poppins','sans-serif';
+    font-weight: normal;
+    width: 38.75rem;
+    height: 21.875rem;
+}
+.eccomerce-text p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18.75rem;
+    padding-top: 1.375rem;
+}
+.footer-background{
+    background-color: #F0FBED;
+    z-index: 0;
+}
+.footer-copyright{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 400;
+    text-align: left;
+    padding: 1rem;
+    align-content: space-around;
+}
+.name{
+    padding: 0.25rem;
+    width: 18.15rem;
+}
+.contact{
+    padding: 0.25rem;
+    font-size: 0.75rem;
+    text-align: left;
+    width: 12.5rem;
+}
+.contact h6{
+    padding: 0.75rem;
+    font: 600;
+    font-size: 0.875rem;
+    color: #30392D;
+}
+.contact p{
+    font-size:  0.75rem;
+    color: #4E6349;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    padding: 0.25rem;
+    font-size: 0.75rem;
+    text-align: left;
+}
+.info h6{
+    padding: 0.75rem;
+    font: 600;
+    font-size: 0.875rem;
+    color: #30392D;
+}
+.info p{
+    color: #4E6349;
+}
+.copy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #60735C;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 400;
+    font-size: 0.5rem;
+    margin-right: 1.5rem;
+    position: relative;
+    right: 10rem;
+}
+.copy img{
+    width: 0.5rem;
+    height: 0.5rem;
 }
