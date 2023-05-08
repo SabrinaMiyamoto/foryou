@@ -290,7 +290,8 @@ aside p{
     width: 0.5rem;
     height: 0.5rem;
     position: relative;
-    left: 0.75rem
+    left: -4rem;
+    top: 1.65rem;
 }
 .circle{
     width: 0.25rem;
@@ -880,6 +881,8 @@ aside{
 .circle-emphasis{
     width: 0.625rem;
     height: 0.625rem;
+    top: 1rem;
+    left: -0.75rem;
 }
 .first-img{
     display: flex;
