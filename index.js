@@ -1,12 +1,9 @@
-const controls = document.querySelectorAll(".control");
-let item = 0;
-const items = document.querySelectorAll('.item');
-const maxItems =items.length;
+const slideItems = document.querySelectorAll(".slider > div");
+let currentIndex = 0;
 
-controls.forEach((control) => {
-   controls.addEventListener('click', () => {
-      const isLeft = control.classList.contains('.arrow-left')
-      console.log('control clicked', isLeft)
-   })
-})
-console.log('hello')
+function nextSlide() {
+  slideItems[currentIndex].classList.remove("active");
+  currentIndex = (currentIndex + 1) % slideItems.length;
+  slideItems[currentIndex].classList.add("active");
+}
+setInterval(nextSlide, 4000);

@@ -9,18 +9,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&family=Roboto:wght@100;300;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/794f38cff9.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
     <nav>
+        <button id="btn-mobile"><img src="src/Group 7.png" alt=""></button>
+        <img src="src/brand.png" alt="">
     <ul>
-        <li><img src="src/brand.jpg" alt="For you" class="brand"><img src="src/circle.png" alt="" class="circle-brand"></li>
-        <li>Todas as categorias</li>
-        <li>masculino</li>
-        <li>feminino</li>
-        <li>contato</li>
+        <li id="menu">Todas as categorias</li>
+        <li id="menu">masculino</li>
+        <li id="menu">feminino</li>
+        <li id="menu">contato</li>
         <li class="img-search"><img src="src/search.svg" alt="" id="icon"></li>
-        <li><img src="src/person-icon.svg" alt="pessoa" id="icon"></li>
+        <li id="menu"><img src="src/person-icon.svg" alt="pessoa" id="icon"></li>
         <li><img src="src/bag-icon.svg" alt="bolsa" id="icon"></li>
     </ul>
 </nav>
@@ -29,25 +31,31 @@
         <div class="colunm">
         <div id="text-presentation">
             <h3>Vista-se com estilo, vista-se com atitude <span class="color">.</span> </h3>
-            <p>Não perca a oportunidade de renovar seu guarda-roupa com as últimas tendências da moda.</p>
+            <div class="pc"><p>Não perca a oportunidade de renovar seu guarda-roupa com as últimas tendências da moda.</p></div>
+            <div class="mobile"><p>Venha renovar seu guarda roúpa com a gente.</p></div>
         </div>
         <div id="photo1"><img src="src/first-img.jpg" alt="casal vestindo uma jaqueta jeans"></div>
     </div>
         <div class="paymentform">
-            <img src="src/Vector.png" alt="">
+            <div class="pc"><img src="src/Vector.png" alt=""></div>
             <aside>
-                <div class="free">
+                <div class="slider">
+                <div class="free" >
+                    <img src="src/car.png" alt="" class="mobile-aside">
                     <h6>FRETE GRATÍS</h6>
                     <p>nas compras acima de R$499</p>
                 </div>
-                <div id="pay">
+                <div class="pay" >
+                    <img src="src/card.png" alt="" class="mobile-aside">
                     <h6>FORMAS DE PAGAMENTO</h6>
                     <p>parcelamento em até 8x</p>
                 </div>
-                <div class="security">
+                <div class="security" >
+                    <img src="src/save.png" alt="" class="mobile-aside">
                     <h6>COMPRA SEGURA</h6>
                     <p>certificado de compra segura</p>
                 </div>
+            </div>
             </aside>
         </div>
         </div>
@@ -82,6 +90,9 @@
         </div>
     </section>
     <section class="new-collection">
+        <div id="square">
+        <img src="src/Dec.png" alt="" class="square">
+    </div>
         <h3>COLEÇÃO NOVA </h3>
         <p>Novas peças para você  ser impecável todos os dias </p>
        <div class="container">
@@ -89,9 +100,11 @@
         <button class="arrow-right"aria-label="Previus image">&#10095;</button>
             <div class="gallery-wrapper">
                 <div class="gallery">
-                    <img src="src/carrousel1.jpg" alt="" class="item">
-                    <img src="src/carrousel2.jpg" alt="" class="item">
-                    <img src="src/carrousel2.jpg" alt="" class="item">
+                    <img src="src/carrousel1.jpg" alt="" class="item1">
+                    <div class="space">
+                    <img src="src/carrousel2.jpg" alt="" class="item2">
+                    <img src="src/carrousel2.jpg"s alt="" class="item3">
+                </div>
                 </div>
             </div>
        </div>
@@ -114,14 +127,14 @@
                <img src="src/“ (1).png" alt="" class="aspas-right"> 
                <div class="client-name">
                 <img src="src/client1.png" alt="" class="client">
-                <p>Esther Bueno</p>
+                <p>Esthe Bueno</p>
                </div>
             </div>
-            <div class="comment-client">
+            <div class="comment-client1">
                 <img src="src/“.png" alt="" class="aspas-left">
                 <cite>Fiz uma compra recentemente e fiquei impressionado com a qualidade e o acabamento da minha roupa, além do atendimento ao cliente foi ótimo. </cite>
                 <img src="src/“ (1).png" alt="" class="aspas-right2">
-                <div class="client-name">
+                <div class="client-name1">
                 <img src="src/client2.png" alt="" class="client">
                 <p>Milena Machado</p>
             </div>
@@ -134,8 +147,7 @@
     <div class="who-we-are">
         <div class="eccomerce-text">
             <div class="eccomerce-img">
-        <img src="src/brand.jpg" alt="" class="logo">
-        <img src="src/circle.png" alt="" class="footer-circle">
+        <img src="src/brand.png" alt="" class="logo">
             </div>
         <p>ForYou é um eccomerce online onde oferecemos uma ampla variedade de roupas feito para atender às suas necessidades e desejos únicos aqui você pode achar a roupa perfeita para você. 
             Além disso, oferecemos opções de pagamento seguras e entrega rápida para que você receba seu produto personalizado o mais rápido possível. </p>
@@ -144,7 +156,7 @@
     </div>
     <div class="footer-background">
     <div class="footer-copyright">
-    <div class="name"><img src="src/brand.jpg" alt=""> <img src="src/circle.png" alt="" class="footer-circle"></div>
+    <div class="name"><img src="src/brand.png" alt=""></div>
     <div class="contact">
         <h6>CONTATO</h6>
         <p>+55 18 9955-5555</p>
@@ -162,9 +174,13 @@
         </div>
     </div>
 </div>
+<div class="social-media">
+    <i class="fa-brands fa-instagram" class="instagram"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-linkedin"></i>
+</div>
 <div class="copy">
     <img src="src/copy.png" alt="">
-<p>ForYou       alguns direitos reservados. </p>
 </div>
 </div>
 </footer>
