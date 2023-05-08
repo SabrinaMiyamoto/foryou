@@ -871,11 +871,11 @@ aside{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    right: 15px;
+    right: 0.938rem;
 }
 .emphasis-img{
-    width: 143px;
-    height: 170px;
+    width: 8.938rem;
+    height: 10.625rem;
 }
 .circle-emphasis{
     width: 0.625rem;
@@ -968,7 +968,7 @@ aside{
     right: 15.625rem;
     flex-basis: 100%;
     position: relative;
-    padding-top: 46px;
+    padding-top: 2.875rem;
     
 }
 .color{
@@ -990,7 +990,7 @@ aside{
 .assessments-clients{
     display: flex;
     width: 100%;
-    min-width: 360px;
+    min-width: 22.5rem;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
